@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(250, 235, 215);
+    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: grey;
+    border: 1px solid grey;
+    margin: 10px 0;
+}
+
+.main-container {
+    background: rgb(41, 33, 33);
+    color: white;
+    width: 400px;
+    border-radius: 15px;
+    margin: 0 auto;
+    border: 2px solid #0033ff;
+    padding: 20px;
+}
+
+.header {
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px; 
+}
+
+.add-btn {
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2e60ea;
+}
+
+.add-btn:hover {
+    background-color: #9eb7fd; 
+}
+
+#user-input {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align:left;
+}
+
+li {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.edit-btn, .delete-btn {
+    float: right;
+    color:crimson;
+    cursor: pointer;
+    margin: 3px 5px;
+    border: none;
+    padding: 3px 5px;
+    background: none;
+} 
+
+h3 {
+    margin-top: 20px; 
+    font-size: 1.4rem;
+}
+
+.counter-container {
+    margin: 10px 0;
+}
